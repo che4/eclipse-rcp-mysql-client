@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_gEoPIMdvEeGWG7t0Aij95g">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_oJoZMFKyEeivE7Vgh0JNpg" featurename="snippets" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="advanced:Perspective" xmi:id="_0ykkwFK0EeivE7Vgh0JNpg" elementId="io.e4.mysql.perspective.mysql" label="MySql">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_H0nycMdwEeGWG7t0Aij95g" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_mF5YkMdwEeGWG7t0Aij95g" elementId="com.sample.workflow.parts.navigation">
+          <children xsi:type="advanced:Placeholder" xmi:id="_jLTcoMelEeG969byIQLukw"/>
+        </children>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_IvTSAMdwEeGWG7t0Aij95g">
+          <children xsi:type="basic:PartStack" xmi:id="_NF_lcMdwEeGWG7t0Aij95g" elementId="com.sample.workflow.parts.editos"/>
+          <children xsi:type="basic:PartStack" xmi:id="_NZ1ugMdwEeGWG7t0Aij95g" elementId="com.sample.workflow.parts.status"/>
+        </children>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

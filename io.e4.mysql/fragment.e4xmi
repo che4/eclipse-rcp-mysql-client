@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_BxaXACerEeWxCPrV0pAZQQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_EI7oACerEeWxCPrV0pAZQQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_KMklcCerEeWxCPrV0pAZQQ" elementId="io.e4.mysql.partdescriptor.settings" label="MySql settings" iconURI="platform:/plugin/io.e4.mysql/icons/Sample.png" tooltip="" category="mysql" closeable="true" contributionURI="bundleclass://io.e4.mysql/io.e4.mysql.parts.DatabaseListPart">
+      <tags>View</tags>
+      <tags>categoryTag:mysql</tags>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_zs7FMFINEeivE7Vgh0JNpg" featurename="menuContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_4WaY0FINEeivE7Vgh0JNpg" elementId="io.e4.mysql.menucontribution.0" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="__jGB8FINEeivE7Vgh0JNpg" elementId="id.mysql" label="MySql" command="_wD-hMFIQEeivE7Vgh0JNpg"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_uDqPQFIQEeivE7Vgh0JNpg" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_wD-hMFIQEeivE7Vgh0JNpg" elementId="io.e4.mysql.command.testsql" commandName="test sql"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_28ssgFIQEeivE7Vgh0JNpg" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_4eku8FIQEeivE7Vgh0JNpg" elementId="io.e4.mysql.handler.0" contributionURI="bundleclass://io.e4.mysql/io.e4.mysql.ui.handlers.ShowMySqlSettingsHandler" command="_wD-hMFIQEeivE7Vgh0JNpg"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Jw71EFK1EeivE7Vgh0JNpg" featurename="snippets" parentElementId="xpath:/">
+    <elements xsi:type="advanced:Perspective" xmi:id="_MSGKQFK1EeivE7Vgh0JNpg" elementId="io.e4.mysql.perspective.0" selectedElement="_ORqOQFK1EeivE7Vgh0JNpg">
+      <children xsi:type="basic_1:PartSashContainer" xmi:id="_ORqOQFK1EeivE7Vgh0JNpg" elementId="io.e4.mysql.partsashcontainer.0" containerData="6000" selectedElement="_QGTbsFK1EeivE7Vgh0JNpg">
+        <children xsi:type="basic_1:Part" xmi:id="_QGTbsFK1EeivE7Vgh0JNpg" elementId="io.e4.mysql.part.0" contributionURI="bundleclass://io.e4.mysql/io.e4.mysql.parts.DatabaseListPart"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
